@@ -4,21 +4,21 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-slate-300 z-10 sticky top-0">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                class="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
@@ -41,30 +41,30 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div class="avatar">
-            <div class="w-16 rounded">
-              <img
-                src="https://api.lorem.space/image/face?hash=77703"
-                alt="Tailwind-CSS-Avatar-component"
-              />
-            </div>
-          </div>{" "}
+          <Link to="/" class="btn btn-ghost normal-case text-xl">
+            Portfolio
+          </Link>
         </div>
-        <div className="navbar-end hidden lg:flex">
+        <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
-          <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/">About Me</Link>
-              </li>
-              <li>
-                <Link to="/">Projects</Link>
-              </li>
-              <li>
-                <Link to="/resume">Resume</Link>
-              </li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/aboutme">About Me</Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/resume">Resume</Link>
+            </li>
           </ul>
+        </div>
+        <div class="navbar-end">
+          <Link to="/resume" className="btn">
+           Download Resume
+          </Link>
         </div>
       </div>
     </>

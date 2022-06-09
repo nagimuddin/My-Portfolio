@@ -1,22 +1,35 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
     <>
-      <div className="card lg:card-side bg-base-100 shadow-xl mt-8">
-        <figure>
+      <div className="card container mx-auto lg:card-side bg-[#06daa8] shadow-xl rounded-none">
+          <div className="card-body text-[#1c3e36]">
+            <h2 className="text-2xl">
+              Hi, It's <br />{" "}
+              <span className="text-4xl text-bold">Nagim Uddin</span> <br /> Web
+              developer based in Bangladesh{" "}
+            </h2>
+            <div className="card-actions my-12 gap-8">
+              <Link to="/aboutme" className="btn btn-outline">
+                Say Hi
+              </Link>
+              <Link to="/projects" className="btn btn-outline">
+                My Work
+              </Link>
+            </div>
+            <p className="text-xl">
+              I am listen to your needs and thoughtfully <br /> interpret your
+              requirements."
+            </p>
+          </div>
+        <figure className="">
           <img
-            src="https://api.lorem.space/image/album?w=400&h=400"
+            src="https://buthydro.sirv.com/Tools%20images/my_photo-1.png"
             alt="Album"
           />
         </figure>
-        <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
-          <p>Click the button to listen on Spotiwhy app.</p>
-          <div className="card-actions justify-center">
-            <button Link to='\resume' className="btn btn-wide">Resume</button>
-          </div>
-        </div>
       </div>
     </>
   );
