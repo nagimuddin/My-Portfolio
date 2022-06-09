@@ -1,6 +1,6 @@
 import React from "react";
 
-const Bennar = () => {
+const AboutMe = () => {
   return (
     <>
       <div className="card lg:card-side bg-base-100 shadow-xl">
@@ -22,4 +22,4 @@ const Bennar = () => {
   );
 };
 
-export default Bennar;
+export default AboutMe;

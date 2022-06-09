@@ -1,10 +1,12 @@
 import React from 'react';
-import Bennar from './Bennar';
+import AboutMe from './AboutMe';
+import Projects from './Projects';
 
 const Home = () => {
     return (
         <div>
-            <Bennar></Bennar>
+            <AboutMe></AboutMe>
+            <Projects></Projects>
         </div>
     );
 };
