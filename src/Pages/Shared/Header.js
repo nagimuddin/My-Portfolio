@@ -37,11 +37,11 @@ const Header = () => {
                 <Link to="/projects">Projects</Link>
               </li>
               <li>
-                <Link to="/resume">Resume</Link>
-              </li>
+              <Link to="/blog">Blog</Link>
+            </li>
             </ul>
           </div>
-          <Link to="/" class="btn btn-ghost normal-case text-xl">
+          <Link to="/" class="btn btn-ghost font-style: italic normal-case text-xl">
             Portfolio
           </Link>
         </div>
@@ -57,14 +57,14 @@ const Header = () => {
               <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/resume">Resume</Link>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
         <div class="navbar-end">
-          <Link to="/resume" className="btn">
+          <a href="https://drive.google.com/file/d/1S9kwA1zCsPLnOV04IMFMuptveLJ5e29y/view?usp=sharing" target="_blank" rel="noreferrer" className="text-red-600 font-style: italic">
            Download Resume
-          </Link>
+          </a>
         </div>
       </div>
     </>
