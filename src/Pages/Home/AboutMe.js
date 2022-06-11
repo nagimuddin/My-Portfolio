@@ -1,35 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
     <>
-      <div className="card container mx-auto lg:card-side bg-[#06daa8] shadow-xl rounded-none">
-          <div className="card-body text-[#1c3e36]">
-            <h2 className="text-2xl">
-              Hi, It's <br />{" "}
-              <span className="text-4xl text-bold">Nagim Uddin</span> <br /> Web
-              developer based in Bangladesh{" "}
-            </h2>
-            <div className="card-actions my-12 gap-8">
-              <Link to="/aboutme" className="btn btn-outline">
-                Say Hi
-              </Link>
-              <Link to="/projects" className="btn btn-outline">
-                My Work
-              </Link>
-            </div>
-            <p className="text-xl">
-              I am listen to your needs and thoughtfully <br /> interpret your
-              requirements."
+      <div
+        class="hero min-h-screen"
+        style={{backgroundImage: `url(https://buthydro.sirv.com/Tools%20images/about-me.jpg.jpg)`}}
+      >
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content text-indigo-900">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+            <p class="mb-5 text-xl">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
             </p>
+            <button class="btn btn-primary">Get Started</button>
           </div>
-        <figure className="">
-          <img
-            src="https://buthydro.sirv.com/Tools%20images/my_photo-1.png"
-            alt="Album"
-          />
-        </figure>
+        </div>
       </div>
     </>
   );
