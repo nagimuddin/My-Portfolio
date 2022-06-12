@@ -11,8 +11,8 @@ const Home = () => {
         <div>
             <Bennar></Bennar>
             <Projects></Projects>
-            <Skills></Skills>
             <AboutMe></AboutMe>
+            <Skills></Skills>
             <Cetagory></Cetagory>
             <Available></Available>
             

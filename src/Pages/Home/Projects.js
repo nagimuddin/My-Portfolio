@@ -45,7 +45,7 @@ const Projects = () => {
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://buthydro.sirv.com/Tools%20images/screenshot-automobile-distribute-agent.web.png"
+                  src="https://buthydro.sirv.com/Tools%20images/automobile-distribute-agent.png"
                   alt="blog"
                 />
                 <div className="p-6">
@@ -75,7 +75,7 @@ const Projects = () => {
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://buthydro.sirv.com/Tools%20images/screenshot-wedding-photographer.png"
+                  src="https://buthydro.sirv.com/Tools%20images/wedding-photographer.png"
                   alt="blog"
                 />
                 <div className="p-6">

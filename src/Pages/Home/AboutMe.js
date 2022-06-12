@@ -5,16 +5,28 @@ const AboutMe = () => {
     <>
       <div
         class="hero min-h-screen"
-        style={{backgroundImage: `url(https://buthydro.sirv.com/Tools%20images/about-me.jpg.jpg)`}}
+        style={{
+          backgroundImage: `url(https://buthydro.sirv.com/Tools%20images/about-me.jpg)`,
+        }}
       >
         <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content text-indigo-900">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-            <p class="mb-5 text-xl">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+        <div class="hero-content text-center">
+          <div class="max-w-4xl">
+            <h1 class="mb-5 text-5xl font-bold text-black">About Me</h1>
+            <p class="mb-5 text-xl text-white">
+              I am a beginner in web development sector. I completed my
+              bachelor degree in management. But, I decide that I must build my
+              career be a web developer.Recently I finished a complete web
+              development course and gathered some experience and over the
+              course I have built up a diverse range of skills, qualities and
+              attributes that guarantee I will perform highly as a developer. I
+              can work both alone and as part of a team on often time-sensitive,
+              challenging web development projects that require outstanding
+              creative and technical capabilities and the ability to ensure all
+              work is optimized across a wide range of platforms. Also, I can
+              perform some technology such as html, CSS, JavaScript, react.js,
+              express.js, firebase, mongo dB, JWT etc. For this reason, I think
+              you can hire me.
             </p>
             <button class="btn btn-primary">Get Started</button>
           </div>
