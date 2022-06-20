@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <h1 className="text-4xl text-center my-6 font-bold text-blue-600/100">
+        <div className="container px-5 mx-auto">
+          <h1 className="text-4xl text-center mb-6 font-bold text-blue-600/100">
             My Projects
           </h1>
           <div className="flex flex-wrap -m-4">
@@ -28,16 +28,16 @@ const Projects = () => {
                   <ul className="text-lg flex justify-center gap-1">
                     <li>Code Link:</li>
                     <li>
-                      <Link to='' className="text-indigo-500">Client Site|</Link>
+                      <a href="*" className="text-indigo-500">Client Site|</a>
                     </li>
                     <li>
-                      <Link to="" className="text-indigo-500">Server Site|</Link>
+                      <a href="*" className="text-indigo-500">Server Site|</a>
                     </li>
                     <li>
-                      <Link to="" className="text-indigo-500">Live Site</Link>
+                      <a href="*" className="text-indigo-500">Live Site</a>
                     </li>
                   </ul>
-                  <Button></Button>
+                  <Button Link to=""></Button>
                 </div>
               </div>
             </div>
@@ -58,16 +58,16 @@ const Projects = () => {
                   <ul className="text-lg flex justify-center gap-1">
                     <li>Code Link:</li>
                     <li>
-                      <Link to="" className="text-indigo-500">Client Site|</Link>
+                      <a href="" className="text-indigo-500">Client Site|</a>
                     </li>
                     <li>
-                      <Link to="" className="text-indigo-500">Server Site|</Link>
+                      <a href="" className="text-indigo-500">Server Site|</a>
                     </li>
                     <li>
-                      <Link to="" className="text-indigo-500">Live Site</Link>
+                      <a href="" className="text-indigo-500">Live Site</a>
                     </li>
                   </ul>
-                  <Button></Button>
+                  <Button Link to=""></Button>
                 </div>
               </div>
             </div>
@@ -88,13 +88,13 @@ const Projects = () => {
                   <ul className="text-lg flex justify-center gap-1">
                     <li>Code Link:</li>
                     <li>
-                      <Link to="" className="text-indigo-500">GitHub Link|</Link>
+                      <a href="*" className="text-indigo-500">GitHub Link|</a>
                     </li>
                     <li>
-                      <Link to="" className="text-indigo-500">Live Site</Link>
+                      <a href="*" className="text-indigo-500">Live Site</a>
                     </li>
                   </ul>
-                  <Button></Button>
+                  <Button Link to=""></Button>
                 </div>
               </div>
             </div>

@@ -15,14 +15,14 @@ const Footer = () => {
             <h2 className="mb-4">Nagim Uddin</h2>
             <ul className="flex items-center gap-4">
               <li>Follow Me</li>
-              <li><Link to="/"><BsGithub /></Link></li>
-              <li><Link to="/"><FiLinkedin /></Link></li>
-              <li><Link to="/"><FaFacebookSquare /></Link></li>
+              <li><a href="https://github.com/nagimuddin"><BsGithub /></a></li>
+              <li><a href="https://www.linkedin.com/in/nagim-uddin-948193241/"><FiLinkedin /></a></li>
+              <li><a href="https://www.facebook.com/nu.ahmed.313"><FaFacebookSquare /></a></li>
             </ul>
           </div>
           <div className="">
             <h2 className="mb-4">Get In Touch</h2>
-            <p>nagimuddin520@gmail.com</p>
+            <a href="mailto:nagimuddin520@gmail.com">nagimuddin520@gmail.com</a>
           </div>
           <div className="">
             <h2 className="mb-4">Contact Me</h2>
