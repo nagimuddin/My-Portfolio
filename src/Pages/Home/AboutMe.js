@@ -4,16 +4,16 @@ const AboutMe = () => {
   return (
     <>
       <div
-        class="hero min-h-screen"
+        className="hero min-h-screen"
         style={{
           backgroundImage: `url(https://buthydro.sirv.com/Tools%20images/about-me.jpg)`,
         }}
       >
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center">
-          <div class="max-w-4xl">
-            <h1 class="mb-5 text-5xl font-bold text-black">About Me</h1>
-            <p class="mb-5 text-xl text-white">
+        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-content text-center">
+          <div className="max-w-4xl">
+            <h1 className="mb-5 text-5xl font-bold text-black">About Me</h1>
+            <p className="mb-5 text-xl text-white">
               I am a beginner in web development sector. I completed my
               bachelor degree in management. But, I decide that I must build my
               career be a web developer.Recently I finished a complete web
@@ -28,7 +28,7 @@ const AboutMe = () => {
               express.js, firebase, mongo dB, JWT etc. For this reason, I think
               you can hire me.
             </p>
-            <button class="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>

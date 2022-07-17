@@ -32,7 +32,7 @@ const Footer = () => {
             <h2 className="mb-4">Subscribe</h2>
             <ul className="flex items-center">
               <form>
-              <input type="email" class="bg-transparent text-white border-b border-white" placeholder="Email"/>
+              <input type="email" className="bg-transparent text-white border-b border-white" placeholder="Email"/>
               </form>
             <li><Link to=""><MdOutlineMailOutline /></Link></li>
             </ul>

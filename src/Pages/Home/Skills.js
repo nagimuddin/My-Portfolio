@@ -3,11 +3,11 @@ import React from "react";
 const Skills = () => {
   return (
     <>
-      <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content">
-          <div class="text-center lg:text-left">
-            <h2 class="py-3 text-4xl font-bold">My Skills</h2>
-            <h2 class="text-2xl font-bold">
+      <div className="hero min-h-screen bg-base-200">
+        <div className="hero-content">
+          <div className="text-center lg:text-left">
+            <h2 className="py-3 text-4xl font-bold">My Skills</h2>
+            <h2 className="text-2xl font-bold">
               Every day <br />I develop my skills
             </h2>
             <p className="text-xl">
@@ -16,33 +16,33 @@ const Skills = () => {
               experience these are.
             </p>
           </div>
-          <div class="w-full grid grid-cols-3 gap-3 bg-slate-100 p-8 mx-auto">
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">Html</button>
+          <div className="w-full grid grid-cols-3 gap-3 bg-slate-100 p-8 mx-auto">
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">Html</button>
             </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">Css3</button>
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">Css3</button>
             </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">JavaScript</button>
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">JavaScript</button>
             </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">Bootstrape</button>
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">Bootstrape</button>
             </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">react.js</button>
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">react.js</button>
             </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">Tailwind</button>
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">Tailwind</button>
             </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">Node.js</button>
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">Node.js</button>
             </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">Firebase</button>
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">Firebase</button>
             </div>
-            <div class="form-control mt-6">
-              <button class="btn btn-outline">Mongodb</button>
+            <div className="form-control mt-6">
+              <button className="btn btn-outline">Mongodb</button>
             </div>
           </div>
         </div>

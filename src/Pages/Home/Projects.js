@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "../Shared/Button";
 
 const Projects = () => {
   return (
@@ -25,19 +24,7 @@ const Projects = () => {
                   <h2 className="tracking-widest text-2xl title-font font-medium text-gray-400 mb-1">
                     FULL STACK PROJECT
                   </h2>
-                  <ul className="text-lg flex justify-center gap-1">
-                    <li>Code Link:</li>
-                    <li>
-                      <a href="*" className="text-indigo-500">Client Site|</a>
-                    </li>
-                    <li>
-                      <a href="*" className="text-indigo-500">Server Site|</a>
-                    </li>
-                    <li>
-                      <a href="*" className="text-indigo-500">Live Site</a>
-                    </li>
-                  </ul>
-                  <Button Link to=""></Button>
+                  <Link to="/project-details1" className="btn btn-wide mt-4">Projects Details</Link>
                 </div>
               </div>
             </div>
@@ -55,19 +42,7 @@ const Projects = () => {
                   <h2 className="tracking-widest text-2xl title-font font-medium text-gray-400 mb-1">
                     FULL STACK PROJECT
                   </h2>
-                  <ul className="text-lg flex justify-center gap-1">
-                    <li>Code Link:</li>
-                    <li>
-                      <a href="" className="text-indigo-500">Client Site|</a>
-                    </li>
-                    <li>
-                      <a href="" className="text-indigo-500">Server Site|</a>
-                    </li>
-                    <li>
-                      <a href="" className="text-indigo-500">Live Site</a>
-                    </li>
-                  </ul>
-                  <Button Link to=""></Button>
+                  <Link to="/project-details2" className="btn btn-wide mt-4">Projects Details</Link>
                 </div>
               </div>
             </div>
@@ -85,16 +60,7 @@ const Projects = () => {
                   <h2 className="tracking-widest text-2xl title-font font-medium text-gray-400 mb-1">
                     FRONT END PROJECT
                   </h2>
-                  <ul className="text-lg flex justify-center gap-1">
-                    <li>Code Link:</li>
-                    <li>
-                      <a href="*" className="text-indigo-500">GitHub Link|</a>
-                    </li>
-                    <li>
-                      <a href="*" className="text-indigo-500">Live Site</a>
-                    </li>
-                  </ul>
-                  <Button Link to=""></Button>
+                  <Link to="/project-details3" className="btn btn-wide mt-4">Projects Details</Link>
                 </div>
               </div>
             </div>

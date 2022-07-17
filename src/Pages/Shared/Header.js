@@ -10,15 +10,15 @@ const Header = () => {
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
@@ -44,7 +44,7 @@ const Header = () => {
             </li>
             </ul>
           </div>
-          <Link to="/" class="btn btn-ghost font-style: italic normal-case text-xl">
+          <Link to="/" className="btn btn-ghost font-style: italic normal-case text-xl">
             Portfolio
           </Link>
         </div>
@@ -54,7 +54,7 @@ const Header = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/project-details">Projects</Link>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
               <Link to="/aboutme">About Me</Link>
@@ -64,7 +64,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div class="navbar-end">
+        <div className="navbar-end">
           <a href="https://drive.google.com/file/d/1S9kwA1zCsPLnOV04IMFMuptveLJ5e29y/view?usp=sharing" target="_blank" rel="noreferrer" className="text-red-600 font-style: italic">
            Download Resume
           </a>
